@@ -1,0 +1,44 @@
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    transition: 0.4s;
+    background-color: #04AA6D;
+    color: rgb(239, 255, 253);
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+  .style1 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 60px;
+    color: #FFFFFF;
+    font-style: italic;
+  }
+  .style2 {
+    font-size: 16px;
+    color: #0000FF;
+  }
+  .style6 {font-size: 16px}
+ 
+
+  
